@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEPORTES UY</title>
+
+    <!--CSS BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!--ICONOS BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--FONTAWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Dancing+Script:wght@400;500&family=Nabla&family=Sono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--JAVASCRIPT-->
+    <script defer src="javascript.js"></script>
+  </head>
+  <body>
+   <!--NAVBAR-->
+   <nav class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="deportesuy navbar-brand" href="index.html">DEPORTESUY</a>
+      <button
+        class="hamburguesa navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end text-bg-dark"
+        tabindex="-1"
+        id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="menunav offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="qatar nav-link" href="#">QATAR 2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <!--CARDS-->
+    <div class="container cardsmargin">
+      <div class="row">
+        <div class="col-md-12">
+          <section class="hero-section">
+            <div class="card-grid">
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/futbol-tarjeta-index.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Futbol</p>
+                  <h3 class="card__heading">Example Card Heading</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/basket-tarjeta-index.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Basquet</p>
+                  <h3 class="card__heading">Example Card Heading</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/atletismo-tarjeta-index.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Atletismo</p>
+                  <h3 class="card__heading">Example Card Heading</h3>
+                </div>
+              </li>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/uruguayo-tarjeta-index.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Uruguayo</p>
+                  <h3 class="card__heading">Example Card Heading</h3>
+                </div>
+              </a>
+            <div>
+          </section>
+        </div>
+      </div>
+    </div>
+    
+        
+  
+    <!--JAVASCRIPT BUNDLE WITH POPPER-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

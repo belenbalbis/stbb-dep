@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACTO</title>
+
+    <!--CSS BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!--ICONOS BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--FONTAWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Dancing+Script:wght@400;500&family=Nabla&family=Sono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--JAVASCRIPT-->
+    <script defer src="javascript.js"></script>
+
+    <!--FORM-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="deportesuy navbar-brand" href="index.html">DEPORTESUY</a>
+          <button
+            class="hamburguesa navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="menunav offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="qatar nav-link" href="#">QATAR 2022</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!--FORMULARIO-->
+    <section class="containerform">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="contacto center-align">CONTACTO</h3>
+          <article class="col s6 offset-s3 ">
+            <form method="POST" action="formulario-contacto.php">
+              <div class="field input-field">
+                <i class="material-icons prefix">perm_identity</i>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" required />
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">person_pin</i>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" required />
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <label for="email">Email</label>
+                <input type="email" name="email" required />
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">mode_edit</i>
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  name="mensaje"
+                  id=""
+                  rows="10"
+                  class="materialize-textarea"
+                  length="140"
+                  required
+                ></textarea>
+              </div>
+
+              <p class="center-align">
+                <button class="send waves-effect" type="submit">
+                  <i class="material-icons right">send</i>Enviar
+                </button>
+              </p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+
+    <!--JAVASCRIPT BUNDLE WITH POPPER-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

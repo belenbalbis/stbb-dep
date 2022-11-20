@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Spice&family=Dancing+Script:wght@400;500&family=Nabla&family=Sono:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Sono", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+/*NAVBAR*/
+.menunav {
+  color: #cf5c36;
+}
+
+.deportesuy {
+  color: #cf5c36;
+}
+
+.qatar {
+  color: #cf5c36;
+}
+
+.hamburguesa:hover {
+  background-color: #cf5c36;
+}
+/*FORMULARIO CONTACTO*/
+.send {
+  background-color: #cf5c36;
+  border-color: #cf5c36;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.containerform {
+  background: black;
+  font-family: "Sono", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.contacto {
+  color: #cf5c36;
+}
