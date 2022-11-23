@@ -1,0 +1,28 @@
+<a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/basket-tarjeta-index.jpg); opacity: 0.8;"></div>
+                <div class="card__content">
+                  <p class="card__category">Basquet</p>
+                  <h3 class="card__heading">CARD HEADING</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/atletismo-tarjeta-index.jpg); opacity: 0.8;"></div>
+                <div class="card__content">
+                  <p class="card__category">Atletismo</p>
+                  <h3 class="card__heading">CARD HEADING</h3>
+                </div>
+              </li>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/uruguayo-tarjeta-index.jpg); opacity: 0.8;"></div>
+                <div class="card__content">
+                  <p class="card__category">Uruguayo</p>
+                  <h3 class="card__heading">CARD HEADING</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(imagenes/uruguayo-tarjeta-index.jpg); opacity: 0.8;"></div>
+                <div class="card__content">
+                  <p class="card__category">Uruguayo</p>
+                  <h3 class="card__heading">CARD HEADING</h3>
+                </div>
+              </a>
